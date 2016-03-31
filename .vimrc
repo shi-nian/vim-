@@ -22,9 +22,9 @@ set encoding=utf-8                  "查找编码的规则（vim7默认都用utf
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 "set fencs=utf-8,gbk                "转换文件的编码
 
-set columns=85                    "初始窗口的宽度
-set lines=28                       "初始窗口的高度
-winpos 402 132                       "初始窗口的位置
+"set columns=85                    "初始窗口的宽度
+"set lines=28                       "初始窗口的高度
+"winpos 402 132                       "初始窗口的位置
 
 set linespace=4                     "行间距，如果默认值太小，代码会非常纠结                                                               
 set shiftwidth=4                    "用<>调整缩进时的长度
@@ -47,7 +47,7 @@ set guitablabel=%t                  "让标签栏只显示文件名
 set formatoptions+=mM               "正确地处理中文字符的折行和拼接
 set autoindent                      "打开自动缩,继承前一行的缩进注释 进
 filetype plugin on                  "载入文件类型插件
-filetype indent on                  "为特定文件类型载入相关缩进文件
+"filetype indent on                  "为特定文件类型载入相关缩进文件
 set completeopt=longest,menu        "去掉预览窗口的显示
 set history=250                     "history文件中需要记录的行数
 
@@ -64,7 +64,7 @@ set novisualbell                    "不要闪烁
 "set nocompatible                   "不需要保持和 vi 非常兼容
 "source $VIMRUNTIME/vimrc_example.vim    "执行 Vim 缺省提供的 .vimrc 文件的示例，包含了打开语法加亮显示等最常用的功能
 
-set smartindent                     "开启缩进功能
+"set smartindent                     "开启缩进功能
 set smarttab
 
 set guioptions-=b      "隐藏底部滚动条
@@ -98,9 +98,9 @@ let g:netrw_winsize = 30
 :inoremap ] <c-r>=ClosePair(']')<CR>
 :inoremap < <><ESC>i
 :inoremap > <c-r>=ClosePair('>')<CR>
-:inoremap " ""<ESC>i
-:inoremap ' ''<ESC>i
-:inoremap ` ``<ESC>i
+":inoremap " ""<ESC>i
+":inoremap ' ''<ESC>i
+":inoremap ` ``<ESC>i
 :inoremap <c-e> <Esc>$a
 :inoremap <c-d> <ESC>o
 function ClosePair(char)
