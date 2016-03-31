@@ -45,7 +45,7 @@ set nobackup                        "取消自动备份
 set guitablabel=%t                  "让标签栏只显示文件名
 
 set formatoptions+=mM               "正确地处理中文字符的折行和拼接
-set autoindent                      "打开自动缩,继承前一行的缩进注释 进
+"set autoindent                      "打开自动缩,继承前一行的缩进注释 进
 filetype plugin on                  "载入文件类型插件
 "filetype indent on                  "为特定文件类型载入相关缩进文件
 set completeopt=longest,menu        "去掉预览窗口的显示
@@ -65,7 +65,7 @@ set novisualbell                    "不要闪烁
 "source $VIMRUNTIME/vimrc_example.vim    "执行 Vim 缺省提供的 .vimrc 文件的示例，包含了打开语法加亮显示等最常用的功能
 
 "set smartindent                     "开启缩进功能
-set smarttab
+"set smarttab
 
 set guioptions-=b      "隐藏底部滚动条
 set guioptions-=R      "隐藏右边滚动条
